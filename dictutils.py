@@ -114,7 +114,6 @@ class Generator (object):
 				derive = ''
 				if '1' in exchange:
 					t = exchange['1']
-					p = []
 					if 'p' in t and 'd' in t:
 						derive = u'过去式和过去分词'
 					elif 's' in t and '3' in t:
